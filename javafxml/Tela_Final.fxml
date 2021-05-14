@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="VBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="395.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane fx:id="AnchorPane" prefHeight="371.0" prefWidth="600.0" style="-fx-background-color: purple;">
+         <children>
+            <ImageView fitHeight="72.0" fitWidth="86.0" layoutX="488.0" layoutY="323.0">
+               <image>
+                  <Image url="@../Downloads/iconfinder_HALLOWE_02_128x128_1584345.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="340.0" fitWidth="589.0" layoutX="6.0">
+               <image>
+                  <Image url="@../Downloads/5a29e88b930d10.7290651115126959476023.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="78.0" fitWidth="79.0" layoutX="35.0" layoutY="324.0">
+               <image>
+                  <Image url="@../Downloads/iconfinder_039_033_castle_horror_dracula_halloween_3792077.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="78.0" fitWidth="86.0" layoutX="158.0" layoutY="321.0">
+               <image>
+                  <Image url="@../Downloads/iconfinder_Ghost-Castle_1531901.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="78.0" fitWidth="86.0" layoutX="364.0" layoutY="320.0">
+               <image>
+                  <Image url="@../Downloads/iconfinder_Castle_3808220.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="Button" layoutX="264.0" layoutY="353.0" mnemonicParsing="false" onAction="#Button_OnAction" text="Finalizar" />
+            <TableView fx:id="TableView" layoutX="6.0" layoutY="6.0" opacity="0.85" prefHeight="332.0" prefWidth="589.0">
+              <columns>
+                <TableColumn fx:id="TableColumn_Tipo" prefWidth="77.0" text="Tipo" />
+                <TableColumn fx:id="TableColumn_Estado" prefWidth="77.0" text="Estado" />
+                  <TableColumn fx:id="TableColumn_Preco" prefWidth="150.0" text="Preço" />
+                  <TableColumn fx:id="TableColumn_Desconto" prefWidth="150.0" text="Desconto" />
+                  <TableColumn fx:id="TableColumn_Total" prefWidth="134.0" text="Total" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
